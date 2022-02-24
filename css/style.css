@@ -1,0 +1,81 @@
+
+/* 
+linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54))
+background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+
+*/
+
+body{
+    /*background-color: #faf8ef;*/
+    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+  
+  @-webkit-keyframes Gradient {
+      0% {
+          background-position: 0% 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0% 50%
+      }
+  }
+  
+  @-moz-keyframes Gradient {
+      0% {
+          background-position: 0% 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0% 50%
+      }
+  }
+  
+  @keyframes Gradient {
+      0% {
+          background-position: 0% 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0% 50%
+      }
+  }
+    
+    
+  }
+  h5{
+    color: #343a40;
+  }
+  .name{
+    color: #343a40;
+  }
+  .love{
+    color: #343a40 !important;
+  }
+  /*------- Mail--------- */
+  #email{
+    text-decoration: none;
+    float: right;
+    color:#343a40;
+  }
+  .icon{
+    
+  }
+  .footer{
+    margin-top: 5% !important;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 479px) {
+    .footer{
+      margin-top: 35% !important;
+    }
+  }
